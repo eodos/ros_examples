@@ -1,0 +1,7 @@
+#goal
+std_msgs/String direction
+---
+#result
+---
+#feedback
+std_msgs/String current_direction

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="custom_message" type="main.py" name="custom_message" output="screen">
+    </node>
+</launch>

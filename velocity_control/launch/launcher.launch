@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="velocity_control" type="velocity.py" name="velocity_publisher" output="screen">
+    </node>
+</launch>

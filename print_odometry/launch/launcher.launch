@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="print_odometry" type="print_odometry.py" name="odometry_subscriber" output="screen">
+    </node>
+</launch>

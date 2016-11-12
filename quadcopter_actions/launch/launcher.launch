@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="quadcopter_actions"
+          type="client.py"
+          name="quadcopter_client"
+          output="screen">
+    </node>
+</launch>

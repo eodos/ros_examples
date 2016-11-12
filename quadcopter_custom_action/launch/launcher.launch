@@ -1,0 +1,13 @@
+<launch>
+    <node pkg="quadcopter_custom_action"
+          type="server.py"
+          name="quadcopter_server"
+          output="screen">
+    </node>
+    
+    <node pkg="quadcopter_custom_action"
+          type="server_custom_msg.py"
+          name="quadcopter_custom_server"
+          output="screen">
+    </node>
+</launch>

@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="graph" type="publisher.py" name="velocity_publisher" output="screen">
+    </node>
+    <node pkg="graph" type="subscriber.py" name="velocity_subscriber" output="screen">
+    </node>
+</launch>

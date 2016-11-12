@@ -1,0 +1,12 @@
+<launch>
+    <node pkg="sphero"
+          type="commander.py"
+          name="sphero_commander"
+          output="screen">
+    </node>
+    <node pkg="sphero"
+          type="sensors.py"
+          name="sphero_sensors"
+          output="screen">
+    </node>
+</launch>

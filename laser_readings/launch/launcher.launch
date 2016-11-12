@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="laser_readings" type="main.py" name="laser_readings" output="screen">
+    </node>
+</launch>
