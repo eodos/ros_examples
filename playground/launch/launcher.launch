@@ -8,4 +8,5 @@
 
     <node pkg="playground" name="main_node" args="/turtle1" type="main_node"/>
 	<node pkg="playground" name="subscriber" type="subscriber"/>
+	<node pkg="tf" type="static_transform_publisher" name="laser_tf_broadcaster" args="0 0 0 0 0 0 0 world laser 100" />
 </launch>
